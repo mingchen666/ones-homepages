@@ -1,0 +1,50 @@
+.header {
+  height: 400px;
+  width: 1200px;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  background-color: rgb(202, 244, 172) !important;
+  width: 90%;
+}
+
+.top-nav ul li {
+  height: 60px;
+  display: inline-block;
+  margin: 0 80px;
+  line-height: 60px;
+}
+
+.top-nav ul .register {
+  position: fixed;
+  right: 5%;
+}
+
+.vxtx {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 50px); /* 计算使图片水平居中 */
+  cursor: pointer;
+}
+
+.vxtx img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

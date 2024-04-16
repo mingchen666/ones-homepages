@@ -1,0 +1,25 @@
+.about {
+  padding: 10px;
+}
+.about > h1 {
+  text-align: center;
+  font-family: '宋体';
+  /* margin: 10px auto; */
+}
+.about > p {
+  line-height: 24px;
+  margin-top: 12px;
+}
+.about > h4 {
+  margin-top: 12px;
+}
+.about > .adminer {
+  float: right;
+}
+.about .download-file {
+  color: red;
+  border: 2px solid #6e6b6b;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 2px;
+}

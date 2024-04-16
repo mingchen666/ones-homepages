@@ -1,0 +1,44 @@
+.daily-card {
+  /* float: right; */
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  /* max-width: 600px; */
+}
+
+.card-header {
+  background-color: #efefef;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-body {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-footer {
+  background-color: #efefef;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}

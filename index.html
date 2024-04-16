@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人主页</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/box.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- 随机一言所需的 -->
+    <link rel="stylesheet" href="css/daily-saying.css" />
+    <link rel="stylesheet" href="path/to/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="js/daily-saying.js"></script>
+    <!-- 友情链接 -->
+    <link rel="stylesheet" href="css/friend-link.css" />
+    <!-- 关于此站 -->
+    <link rel="stylesheet" href="css/about-myweb.css" />
+  </head>
+
+  <body>
+    <div class="header public">
+      <div class="top-nav">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="#">联系我</a></li>
+          <li><a href="#">关于</a></li>
+          <li class="register"><a href="#">注册/登录</a></li>
+        </ul>
+      </div>
+      <div class="vxtx-container">
+        <div class="vxtx"><img src="images/vxtx.jpg" alt="" /></div>
+      </div>
+    </div>
+    <!-- 左栏导航栏 -->
+    <div class="box public">
+      <div class="left-nav">
+        <ul>
+          <li class="nav1">
+            <a href="#box1" class="active">本站首页<span> > </span></a>
+          </li>
+          <li class="nav2">
+            <a href="#box2">自我介绍<span> > </span></a>
+          </li>
+          <li class="nav3">
+            <a href="#box3">本站工具<span> > </span></a>
+          </li>
+          <li class="nav4">
+            <a href="#box4">个人项目<span> > </span></a>
+          </li>
+          <li class="nav5">
+            <a href="#box5">友情链接<span> > </span></a>
+          </li>
+          <li class="nav6">
+            <a href="#box6">关于本站<span> > </span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <!-- 第一个右盒子 -->
+        <div id="box1" class="box11">
+          <h2>Hello world!</h2>
+          <h4>这是我学会的第一个程序！</h4>
+          <p>
+            制作此页面花了很多时间,<img
+              src="images/box1-img/aixin.jpg"
+              width="110"
+              height="80"
+              alt=""
+            />
+          </p>
+          <p>看完了麻烦点个小爱心鼓励一下可以吗</p>
+          <p id="saying1">
+            “即使你没有天赋，但只要你愿意不断学习和努力，你也可以成为一个出色的人”
+          </p>
+          <p id="saying2">
+            “If it hurts, do it more often.”（如果它让你难受，那就多做几次。）
+          </p>
+          <div class="box11-nav">
+            <ul class="image">
+              <li><img src="images/box1-img/QQ.png" alt="" /></li>
+              <li><img src="images/box1-img/vx.png" alt="" /></li>
+              <li><img src="images/box1-img/github.png" alt="" /></li>
+              <li><img src="images/box1-img/boke.png" alt="" /></li>
+            </ul>
+            <ul class="aa">
+              <li><a href="#">QQ</a></li>
+              <li><a href="#">微信</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">小罗博客</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 第二个右盒子 -->
+        <div id="box2" class="box22">
+          <p>
+            大家好，我是小罗，一个热爱编程、追求创新的男孩。我擅长使用前端三件套/c语言,并致力于不断学习和提高自己的技能。
+          </p>
+          <p>
+            作为一名程序员，我非常喜欢研究和开发各种网站和应用程序，目前这是我做的第一个正式项目，这个项目让我学到了很多新知识和技能，也让我更加热爱编程和探索创新的乐趣。
+          </p>
+          <p class="my-saying">
+            “即使你没有天赋，但只要你愿意不断学习和努力，你也可以成为一个出色的人”
+          </p>
+        </div>
+        <!-- 第三个右盒子 -->
+        <div id="box3" class="box33">
+          <!-- 随机一言 -->
+          <div class="daily-card">
+            <div class="card-header">
+              <h4 class="card-title">每日一言</h4>
+            </div>
+            <div class="card-body">
+              <p id="quote"></p>
+              <p id="author"></p>
+            </div>
+            <div class="card-footer">
+              <button id="new-quote" class="btn">换一句</button>
+            </div>
+          </div>
+        </div>
+        <!-- 第四个右盒子 -->
+        <div id="box4" class="box44">
+          <h1>等待添加......</h1>
+        </div>
+        <!-- 第五个右盒子 -->
+
+        <div id="box5" class="box55">
+          <div class="friend-link">
+            <ul>
+              <li><a href="#">小罗博客</a></li>
+              <li><a href="#">小罗导航</a></li>
+              <li><a href="#">小罗图床</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">等待添加</a></li>
+              <li><a href="#">等待添加</a></li>
+              <li><a href="#">等待添加</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 第六个右盒子 -->
+        <div id="box6" class="box66">
+          <div class="about">
+            <h1>关于本站</h1>
+            <h4>尊敬的用户：</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;感谢您访问本站！</p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此声明：本站所提供的一些素材和资料部分来自互联网，仅供个人学习和分享之用，禁止用于任何商业用途。
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本站已开源，下载请<a
+                href="#"
+                class="download-file"
+                >点击这里</a
+              >
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本网站可能包含指向第三方网站的链接，这些链接仅供您方便访问。我们不对任何第三方网站的内容、隐私政策或做法负责，并且不对其造成的任何损失或损害承担责任。
+            </p>
+            <h4>更新日期:</h4>
+            <p>本站声明的最后更新日期是[2023/6/27]。</p>
+            <h3 class="adminer">—— 小罗</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

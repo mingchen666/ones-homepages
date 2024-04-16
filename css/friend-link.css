@@ -1,0 +1,33 @@
+.friend-link {
+  /* width: 600px;
+  height: 200px; */
+  /* background-color: aqua; */
+  margin: auto;
+}
+.friend-link ul {
+  margin: auto 5px;
+}
+.friend-link ul li {
+  display: inline-block;
+  width: 25%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(57, 122, 38, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 50px 30px;
+  text-align: center;
+  border: 1px solid #e4e0e0;
+  box-shadow: 4px 4px 6px #eae7e7;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: '华文楷体';
+}
+.friend-link li a {
+  /* text-align: center; */
+  color: rgb(149, 239, 121);
+}
+.friend-link ul li:hover {
+  background-color: rgb(26, 239, 168);
+}

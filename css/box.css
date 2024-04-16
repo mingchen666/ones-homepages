@@ -1,0 +1,212 @@
+.left-nav {
+  float: left;
+  width: 250px;
+  height: 400px;
+  background-color: rgba(191, 183, 177, 0.8);
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.left-nav > ul > li {
+  /* display: inline-block; */
+  height: 40px;
+  width: 200px;
+  color: pink;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 22px 0px 22px 20px;
+  text-align: center;
+  line-height: 40px;
+
+  /* background-color: #e65555; */
+}
+
+.left-nav ul li:hover {
+  color: rgb(0, 255, 4);
+  background-color: rgba(83, 244, 99, 0.5);
+  border-radius: 20px;
+}
+
+.left-nav span {
+  float: right;
+  margin: auto 20px;
+  margin-right: 0;
+}
+
+.right > div {
+  display: none;
+}
+
+#box1:target {
+  display: block;
+  /* background-color: blue; */
+}
+
+/* box1的盒子属性 */
+
+/* 第一个盒子 */
+/* 第一个盒子 */
+.box11 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: rgb(158, 199, 156);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  margin-right: 50px;
+}
+
+.box11 > h2,
+.box11 > h4 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.box11 > h2 {
+  color: chocolate;
+}
+
+.box11 > p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.box11 p img {
+  float: right;
+}
+
+#saying1 {
+  font-size: 20px;
+  font-family: '楷体';
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 20px;
+  color: rgb(241, 234, 113);
+}
+
+#saying2 {
+  margin: 20px 20px 10px 20px;
+  color: rgb(77, 55, 243);
+}
+
+.aa,
+.image {
+  margin: 0 30px 0 100px;
+}
+
+.box11-nav .aa li {
+  display: inline-block;
+  width: 66px;
+  /* height: 0; */
+  /* line-height: 35px; */
+  text-align: center;
+  margin: 0 25px;
+  background-color: rgb(104, 242, 242);
+  /* border-radius: ; */
+  /* margin-top: 0; */
+}
+
+.box11-nav .image li {
+  display: inline-block;
+  width: 66px;
+  /* height: 35px; */
+  text-align: center;
+  margin: 30px 25px 0px 25px;
+  margin-bottom: 0;
+  /* padding-top: 20px; */
+}
+
+.box11-nav .image li img {
+  width: 40px;
+  height: 40px;
+  /* margin-right: 30px; */
+}
+
+/* 第二个盒子 */
+/* 第二个盒子 */
+#box2:target {
+  display: block;
+}
+.box22 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: rgb(158, 199, 1);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  margin-right: 50px;
+}
+.box22 > p {
+  line-height: 50px;
+  padding: 20px;
+}
+.box22 > .my-saying {
+  font-size: 20px;
+  color: aqua;
+}
+
+/* 第三个盒子 */
+#box3:target {
+  display: block;
+}
+.box33 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(80, 39, 242, 0.8);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  margin-right: 50px;
+}
+/* 第四个盒子 */
+#box4:target {
+  display: block;
+}
+.box44 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: #9aeb57;
+  box-shadow: 0 16px 30px rgba(167, 164, 164, 0.5);
+  border-radius: 40px;
+  margin-right: 50px;
+}
+.box44 > h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: '楷体';
+}
+
+/* 第五个右盒子 */
+#box5:target {
+  display: block;
+}
+.box55 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 30px rgba(167, 164, 164, 0.5);
+  border-radius: 40px;
+  margin-right: 50px;
+}
+
+/* 第六个右盒子 */
+#box6:target {
+  display: block;
+}
+.box66 {
+  /* position: absolute; */
+  float: right;
+  width: 800px;
+  height: 400px;
+  background-color: rgb(50, 137, 250);
+  box-shadow: 0 16px 30px rgba(233, 230, 65, 0.588);
+  border-radius: 40px;
+  margin-right: 50px;
+}
